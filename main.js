@@ -11,7 +11,7 @@ const slideTitles = [
 
 // URLs for redirection
 const slideUrls = [
-    "https://example2.com","https://example.com","https://ai-medical-prescribe.vercel.app/",
+    "https://project-tau-beige.vercel.app/","https://doc-sum-chi.vercel.app/","https://ai-medical-prescribe.vercel.app/",
     "https://mealplanners.streamlit.app/"     
 ];
 
