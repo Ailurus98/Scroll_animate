@@ -49,7 +49,7 @@ function createSlides() {
         const imgNum = (i % 4) + 1;
         const slideIndex = i % 4; // Get the actual index (0-3)
 
-        img.src = `sprites/${imgNum}.png`;
+        img.src = `/${imgNum}.png`;
         img.alt = ` `;
         img.style.willChange = 'transform, filter';
 
@@ -85,12 +85,12 @@ function createSlides() {
 function createThumbnailWheel() {
     // SVG icons for the wheel
     const svgIcons = [
-        `<img src="sprites/lock-circle--svgrepo-com.svg" alt="Lock" style="width:50px;height:50px">`,
-        `<img src="sprites/dna-svgrepo-com.svg" alt="DNA" style="width:50px;height:50px">`,
+        `<img src="/lock-circle--svgrepo-com.svg" alt="Lock" style="width:50px;height:50px">`,
+        `<img src="/dna-svgrepo-com.svg" alt="DNA" style="width:50px;height:50px">`,
         `<svg viewBox="0 0 24 24" fill="currentColor" style="width:40px;height:40px">
             <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
         </svg>`,
-        `<img src="sprites/diet-svgrepo-com.svg" alt="Diet" style="width:50px;height:50px">`,
+        `<img src="/diet-svgrepo-com.svg" alt="Diet" style="width:50px;height:50px">`,
     ];
     
     for (let i = 0; i < 4; i++) {
